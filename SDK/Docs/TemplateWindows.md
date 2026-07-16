@@ -2,6 +2,8 @@
 
 # Calendar, Calculator и desktop indicators
 
+[English version](en/TemplateWindows.md)
+
 `TV_ShowCalendar(Year, Month)` создаёт готовое немодальное окно календаря.
 Нулевые Year/Month выбирают текущий месяц. Используйте
 `TV_SetCalendarMonth()` и `TV_GetCalendarDate()` для программного управления.

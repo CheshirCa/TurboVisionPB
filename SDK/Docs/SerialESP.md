@@ -2,6 +2,8 @@
 
 # Serial ESP
 
+[English version](en/SerialESP.md)
+
 Статус Serial backend, COM-портов и ESP32: **в разработке**.
 
 Public SDK 0.14.0 не экспортирует Serial-функции, не открывает порты и не

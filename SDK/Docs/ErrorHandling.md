@@ -2,6 +2,8 @@
 
 # Ошибки и диагностика
 
+[English version](en/ErrorHandling.md)
+
 Большинство функций возвращают `#False` или ID 0 при ошибке. После отказа
 прочитайте `TV_GetLastError()` и скопируйте текст через
 `TV_CopyLastErrorText(*Buffer, BufferCharacters)`.

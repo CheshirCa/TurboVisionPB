@@ -4,6 +4,8 @@
 
 # TurboVisionPB Binary SDK
 
+[English](README.en.md) | **Русский**
+
 TurboVisionPB — библиотека текстового интерфейса для PureBasic 6.40 под
 Windows 10/11 и Windows Server 2022. Public SDK содержит только бинарную DLL,
 import library, публичный include, документацию и примеры. Исходный код

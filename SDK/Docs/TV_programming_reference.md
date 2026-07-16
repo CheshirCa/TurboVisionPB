@@ -2,6 +2,8 @@
 
 # TurboVisionPB: руководство программиста
 
+[English version](en/TV_programming_reference.md)
+
 Этот файл описывает установку, подключение, событийную модель и весь публичный
 API TurboVisionPB 0.16.8. Библиотека предназначена для PureBasic 6.40 Unicode
 под Windows 10/11 и Windows Server 2022. UI однопоточный: все вызовы выполняются

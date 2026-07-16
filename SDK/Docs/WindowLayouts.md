@@ -2,6 +2,8 @@
 
 # Window Cascade, Tile, move и mouse resize
 
+[English version](en/WindowLayouts.md)
+
 Добавьте в меню встроенные команды:
 
 ```purebasic

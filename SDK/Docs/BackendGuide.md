@@ -2,6 +2,8 @@
 
 # Руководство backend
 
+[English version](en/BackendGuide.md)
+
 В бинарном SDK реализован только `#TV_BACKEND_WINDOWS_CONSOLE`. Выберите его
 через `TV_SelectBackend()` до `TV_Init()`.
 

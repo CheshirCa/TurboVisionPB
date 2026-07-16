@@ -2,6 +2,8 @@
 
 # Быстрый старт
 
+[English version](en/GettingStarted.md)
+
 Требуются Windows 10/11 или Windows Server 2022 и PureBasic 6.40 x64 либо x86.
 Архитектуры приложения, `TurboVisionPB.lib` и `TurboVisionPB.dll` должны
 совпадать.

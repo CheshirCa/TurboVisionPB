@@ -2,6 +2,8 @@
 
 # File dialogs и адаптивные controls
 
+[English version](en/FileDialogsAndLayout.md)
+
 Open/Save выполняются внутри TurboVisionPB:
 
 ```purebasic

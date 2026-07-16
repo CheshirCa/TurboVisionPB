@@ -2,6 +2,8 @@
 
 # Переход с исходного include на Binary SDK
 
+[English version](en/MigrationGuide.md)
+
 ## Изменения 0.15.0
 
 - добавлены готовые окна Calendar/Calculator и функции чтения их состояния;

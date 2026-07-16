@@ -2,6 +2,8 @@
 
 # Фоновый текст и объёмные рамки
 
+[English version](en/DesktopDecorations.md)
+
 `TV_CreateDesktopText(X, Y, Text, Foreground, Background)` создаёт постоянную
 неинтерактивную надпись под всеми окнами. Она рисуется после очистки desktop,
 но до окон, menu bar и status bar. Доступны `TV_SetDesktopText()`,
