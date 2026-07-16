@@ -1,0 +1,5 @@
+TurboVisionPB 0.16.8
+(C) CheshirCa 2026
+
+Semantic version: 0.16.8
+Windows file version: 0.16.8.0

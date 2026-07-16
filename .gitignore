@@ -1,0 +1,19 @@
+﻿# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Debug
+*.pdb
+*.ilk
+
+# Temporary
+*.obj
+*.o
+*.log
+*.tmp
+*.bak
+*.cache
