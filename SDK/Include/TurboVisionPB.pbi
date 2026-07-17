@@ -1,13 +1,13 @@
-; TurboVisionPB 0.16.8
+; TurboVisionPB 0.16.9
 ; (C) CheshirCa 2026
 ; Binary public SDK contract. No implementation is included.
 
 #TV_VERSION_MAJOR = 0
 #TV_VERSION_MINOR = 16
-#TV_VERSION_PATCH = 8
+#TV_VERSION_PATCH = 9
 #TV_VERSION_BUILD = 0
-#TV_VERSION_STRING = "0.16.8"
-#TV_API_VERSION = $00100800
+#TV_VERSION_STRING = "0.16.9"
+#TV_API_VERSION = $00100900
 #TV_COPYRIGHT = "(C) CheshirCa 2026"
 
 Enumeration
@@ -306,7 +306,7 @@ EndStructure
 #TV_CONFIG_STRUCTURE_VERSION = 1
 
 CompilerIf #PB_Compiler_OS <> #PB_OS_Windows
-  CompilerError "TurboVisionPB 0.16.8 public SDK supports Windows only."
+  CompilerError "TurboVisionPB 0.16.9 public SDK supports Windows only."
 CompilerEndIf
 CompilerIf #PB_Compiler_Processor = #PB_Processor_x64
   ImportC "..\Lib\x64\TurboVisionPB.lib"

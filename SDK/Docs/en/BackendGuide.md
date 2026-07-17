@@ -1,4 +1,4 @@
-<!-- TurboVisionPB 0.16.8 | (C) CheshirCa 2026 -->
+<!-- TurboVisionPB 0.16.9 | (C) CheshirCa 2026 -->
 
 # Backend guide
 
@@ -20,7 +20,10 @@ If a console input record combines mouse movement with a button transition,
 the SDK emits the press/release event first. This prevents a delayed phantom
 click from reaching a lower window.
 
-Window shadows use full cells and need no font detection. Glyph coverage is
+Window shadows use full cells and need no font detection. A shadow preserves
+the glyph already present in each cell and, in the Classic theme, renders it
+dark gray on black, so text from a lower window remains visible but dimmed.
+Glyph coverage is
 checked only for the `◢` resize handle; if it is unavailable, the SDK uses the
 OEM-compatible `▓`. CP866/1251 is not used as a capability test because frames
 are written through `WriteConsoleOutputW()`.

@@ -1,4 +1,4 @@
-<!-- TurboVisionPB 0.16.8 | (C) CheshirCa 2026 -->
+<!-- TurboVisionPB 0.16.9 | (C) CheshirCa 2026 -->
 
 # Getting started
 
@@ -78,3 +78,8 @@ Create ready-made Calendar and Calculator windows with `TV_ShowCalendar()` and
 `TV_ShowCalculator()`. Configure clocks and right-aligned status text with
 `TV_SetDesktopClock()` and `TV_SetStatusBarRightText()`. See
 `TemplateWindows.md` and `Example07_TurboVisionDemo.pb`.
+
+In the Classic theme, a window shadow preserves characters from the lower
+window and shows them dark gray on black. It uses two full cells on the right
+and one full row below; a raised button uses `▄` on the right and `▀` below.
+Override these colors through `TV_Theme` and `TV_SetTheme()`.

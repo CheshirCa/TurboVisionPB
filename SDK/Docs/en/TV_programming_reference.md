@@ -1,11 +1,11 @@
-<!-- TurboVisionPB 0.16.8 | (C) CheshirCa 2026 -->
+<!-- TurboVisionPB 0.16.9 | (C) CheshirCa 2026 -->
 
 # TurboVisionPB programmer's guide
 
 [Русская версия](../TV_programming_reference.md)
 
 This guide describes installation, initialization, event handling, ownership,
-and the main public API contracts of TurboVisionPB 0.16.8. The library targets
+and the main public API contracts of TurboVisionPB 0.16.9. The library targets
 PureBasic 6.40 Unicode on Windows 10/11 and Windows Server 2022. All UI calls
 and the event loop must run on one thread.
 

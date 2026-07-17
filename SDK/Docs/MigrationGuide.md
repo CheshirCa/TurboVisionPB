@@ -1,8 +1,15 @@
-<!-- TurboVisionPB 0.16.8 | (C) CheshirCa 2026 -->
+<!-- TurboVisionPB 0.16.9 | (C) CheshirCa 2026 -->
 
 # Переход с исходного include на Binary SDK
 
 [English version](en/MigrationGuide.md)
+
+## Изменения 0.16.9
+
+- стандартная оконная тень сохраняет символ затеняемой ячейки;
+- Classic theme показывает этот символ dark gray на чёрном;
+- patterned-тени с непробельным `ShadowCharacter`, геометрия, API и ABI не
+  изменились.
 
 ## Изменения 0.15.0
 

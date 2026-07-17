@@ -1,10 +1,17 @@
-<!-- TurboVisionPB 0.16.8 | (C) CheshirCa 2026 -->
+<!-- TurboVisionPB 0.16.9 | (C) CheshirCa 2026 -->
 
 # Migrating from the source include to the Binary SDK
 
 [Русская версия](../MigrationGuide.md)
 
 ## Version changes
+
+### 0.16.9
+
+- standard window shadows preserve the glyph in each shaded cell;
+- the Classic theme shows preserved glyphs dark gray on black;
+- patterned shadows with a non-space `ShadowCharacter`, geometry, API, and ABI
+  are unchanged.
 
 ### 0.15.0
 
